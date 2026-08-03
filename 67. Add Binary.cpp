@@ -27,3 +27,5 @@ public:
         return a;
     }
 };
+
+// The approach uses two pointers to traverse both strings from right to left, simulating binary addition with a carry. The time complexity is O(max(m, n)) and the space complexity is O(1).
